@@ -1,18 +1,23 @@
+document.getelementById('name').onkeyup = function {
 
-var re = new RegExp('<');
+    var regEx = new RegExp('<');
+if(regExp.test(document.getElementbyId('name').value)) {
 
-if(re.test('name'))  {
-
-
-    var RegExp = onkeypress.style.backgroundColor='red';
-
-
+    name.style.backgroundColor = 'red';
 } else {
+    name.style.backgroundColor = '';
+}
+};
 
-    regExp = ('<'); onkeypress.style.backgroundColor ='white';
+
+
+function checkEmail(email){
+
+    var regExp = RegExp('[a-z0-9!#$%&\\\'*+/=?^_`{|}~-]+(?:\\\\.[a-z0-9!#$%&\\\'*+/=?^_`{|}~-]+)*@(?:[a-z0-9](?:[a-z0-9-]*[a-z0-9])?\\\\.)+[a-z0-9](?:[a-z0-9-]*[a-z0-9])?\']);
+
+    if(regExp.test(document.checkEmail))
 
 }
-
 
 if(new RegExp('^(([0-9][1-9])|([1-9][0-9])|[1-9])$').test(age.value));
 {
@@ -26,7 +31,7 @@ else
 }
 
 
-var regExp = new RegExp('[a-z0-9!#$%&\'*+/=?^_`{|}~-]+(?:\\.[a-z0-9!#$%&\'*+/=?^_`{|}~-]+)*@(?:[a-z0-9](?:[a-z0-9-]*[a-z0-9])?\\.)+[a-z0-9](?:[a-z0-9-]*[a-z0-9])?');
+var regExp = new RegExp(');
 
 var email = "jaidreanna@gmail.com";
 
